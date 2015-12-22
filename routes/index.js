@@ -3,9 +3,9 @@ var router = express.Router();
 
 var siteData = {
   title: 'Pancake API',
-  version: '1.0.0',
-  authors: 'WDI Roger Panella',
-  date: 'Dec 21st, 2015'
+  version: '1.1.0',
+  authors: 'DBeeler',
+  date: '22DEC2015'
 };
 
 /* GET home page. */

@@ -4,8 +4,20 @@
   <em>Current Version:</em> {{version}}
 </p>
 
+<h2>Add Recipe</h2>
+<section id="add-recipe">
+  <input type="text" id="recipe-ingredients" value="" placeholder="List of Ingredients">
+  <input type="text" id="recipe-type" value="" placeholder="Type of Pancake">
+  <input type="text" id="recipe-topping" value="" placeholder="Toppings?">
+  <input type="text" id="recipe-syrup" value="" placeholder="Syrup?">
+  <input type="text" id="recipe-instructions" value="" placeholder="Instructions">
+  <input type="text" id="recipe-time" value="" placeholder="Time">
+  <button type="button" id="recipe-add-recipe">Add Recipe</button>
+  <div class="error"></div>
+</section>
+
+<h2>Pancakes Listing</h2>
 <section id='pancake-listing'>
-  <h2>Pancakes Listing</h2>
 
 </section>
 
@@ -23,3 +35,4 @@
 
 <!-- loading custom app -->
 <script src='/javascripts/app.js'></script>
+<script src='/javascripts/app.views.js'></script>
